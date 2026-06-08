@@ -27,7 +27,7 @@ A lightweight Windows application that allows you to control Spotify using custo
 
 ## 🛠️ Requirements
 
-- Windows 10 or later
+- Windows 11
 - Spotify Desktop App
 
 ## 📸 Screenshots
