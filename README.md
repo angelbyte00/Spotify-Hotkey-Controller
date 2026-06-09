@@ -38,8 +38,6 @@ Screenshots of the application can be added here.
 
 This project is licensed under the MIT License.
 
-MIT License
-
 Copyright (c) 2026 YOUR NAME
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
