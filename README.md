@@ -37,5 +37,3 @@ Screenshots of the application can be added here.
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-https://github.com/robinkleinxx1234-sketch/Spotify-Hotkey-Controller/releases/download/1.0/SpotifyHotkeyController.exe
