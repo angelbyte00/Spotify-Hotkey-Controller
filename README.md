@@ -32,8 +32,11 @@ A lightweight Windows application that allows you to control Spotify using custo
 
 ## 📸 Screenshots
 
-Screenshots of the application can be added here.
+<img width="356" height="432" alt="image" src="https://github.com/user-attachments/assets/ddd88739-3083-4cc3-95c7-892e3e87a561" />
+
 
 ## 📄 License
 
 No license
+
+
