@@ -1,9 +1,0 @@
-customtkinter
-pystray
-Pillow
-
-# Optional: cover art + playback state from the Windows media session
-winsdk
-
-# Optional: Discord Rich Presence
-pypresence
