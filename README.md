@@ -29,7 +29,7 @@ A compact Windows desktop app for controlling Spotify with global hotkeys, a cle
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/angelbyte00/Spotify-Hotkey-Controller.git
 cd <your-repo>
 pip install -r requirements.txt
 python SpotifyController.py
