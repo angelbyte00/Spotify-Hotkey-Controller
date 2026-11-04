@@ -1,0 +1,23 @@
+# Private user data (contains Spotify credentials!)
+settings.json
+hotkeys.json
+history.json
+cover_cache/
+.write_test
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
