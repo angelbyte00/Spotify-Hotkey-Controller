@@ -64,12 +64,6 @@ The app only requests the `user-library-modify` scope.
 2. In OBS, add a **Browser Source** with the URL:
    `http://127.0.0.1:8787/overlay` (port can be changed in the settings)
 
-### Discord Rich Presence
-
-1. Create an application at the [Discord Developer Portal](https://discord.com/developers/applications).
-2. Paste its **Application ID** into **Settings → Discord** and enable it.
-3. Keep the Discord desktop app running.
-
 ## Data and privacy
 
 Everything stays on your PC. The app creates these files next to the program (settings falls back to `%APPDATA%\SpotifyController` if the folder is read-only):
