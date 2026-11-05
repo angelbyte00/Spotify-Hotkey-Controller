@@ -1,6 +1,6 @@
 # Spotify Controller
 
-A compact Windows desktop app for controlling Spotify with global hotkeys, a clean "now playing" view, a system tray icon, an OBS stream overlay and Discord Rich Presence.
+A compact Windows desktop app for controlling Spotify with global hotkeys, a clean "now playing" view, a system tray icon, an OBS stream overlay.
 
 > **Windows only.** The app uses Windows APIs (media keys, media session, `winsound`), so it does not run on macOS or Linux.
 
@@ -17,7 +17,6 @@ A compact Windows desktop app for controlling Spotify with global hotkeys, a cle
 - **4 color themes**: Harbor, Nightfall, Moonlit, Steel
 - **System tray**: minimize to tray, single-instance, optional `--tray` start
 - **OBS overlay**: browser source with 3 styles (Card, Minimal, Badge)
-- **Discord Rich Presence**: show your current song on your Discord profile, including a "Listen on Spotify" button
 - **Always on top** option
 
 ## Requirements
