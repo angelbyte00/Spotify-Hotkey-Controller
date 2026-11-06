@@ -45,7 +45,6 @@ python SpotifyController.py --tray
 | Package | Needed for |
 |---|---|
 | `winsdk` | Cover art and playback state straight from the Windows media session. Without it, the song is read from the Spotify window title and covers are loaded from the web. Alternative: `winrt-Windows.Media.Control` + `winrt-Windows.Storage.Streams` |
-| `pypresence` | Discord Rich Presence |
 
 ## Setup
 
