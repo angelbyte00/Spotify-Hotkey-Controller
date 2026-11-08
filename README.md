@@ -1,6 +1,6 @@
 # Spotify Controller
 
-A compact Windows desktop app for controlling Spotify with global hotkeys, a clean "now playing" view, a system tray icon, an OBS stream overlay.
+A compact Windows desktop app for controlling Spotify with global hotkeys and your controller, with a clean "now playing" view, a system tray icon and an OBS stream overlay.
 
 > **Windows only.** The app uses Windows APIs (media keys, media session, `winsound`), so it does not run on macOS or Linux.
 
@@ -11,42 +11,45 @@ A compact Windows desktop app for controlling Spotify with global hotkeys, a cle
 ## Features
 
 - **Global hotkeys** for Play/Pause, Next and Previous, freely configurable, work even when the window is hidden
+- **Controller hotkeys**: skip, pause and like songs with your Xbox, PS4 or PS5 controller, including button combos (e.g. `LB + A`), without leaving your game
 - **Like hotkey**: save the current song to your Spotify library with one key press (optional sound feedback)
+- **Clear hotkey**: assign your own key to the Clear button
 - **Now playing view** with cover art, progress bar and song history
 - **3 now-playing designs**: Spotify, Spotlight, Clean
 - **4 color themes**: Harbor, Nightfall, Moonlit, Steel
 - **System tray**: minimize to tray, single-instance, optional `--tray` start
 - **OBS overlay**: browser source with 3 styles (Card, Minimal, Badge)
+- **Low RAM usage**: covers and images are released while the app sits in the tray
 - **Always on top** option
 
-## Requirements
+## Download
 
-- Windows 10 / 11
-- Python 3.9+
-- Spotify desktop app
+1. Go to the [Releases](https://github.com/angelbyte00/Spotify-Hotkey-Controller/releases) page.
+2. Download `SpotifyController.exe` from the latest release.
+3. Run it. No installation needed.
 
-## Installation
-
-```bash
-git clone https://github.com/angelbyte00/Spotify-Hotkey-Controller.git
-cd Spotify-Hotkey-Controller
-pip install -r requirements.txt
-python SpotifyController.py
-```
+Already using the app? Open **Settings → About** and click **Check for updates**.
 
 Start minimized to the tray:
 
-```bash
-python SpotifyController.py --tray
+```
+SpotifyController.exe --tray
 ```
 
-### Optional packages
+### Requirements
 
-| Package | Needed for |
-|---|---|
-| `winsdk` | Cover art and playback state straight from the Windows media session. Without it, the song is read from the Spotify window title and covers are loaded from the web. Alternative: `winrt-Windows.Media.Control` + `winrt-Windows.Storage.Streams` |
+- Windows 10 / 11
+- Spotify desktop app
 
 ## Setup
+
+### Controller hotkeys
+
+Open the **Hotkeys** tab and switch to the controller page to assign buttons or button combos.
+
+- **Xbox controllers** (360, One, Series X/S) work out of the box.
+- **PS4 / PS5 controllers** (DualShock / DualSense) are detected automatically.
+- **Other controllers** (e.g. Switch Pro) can be enabled in **Settings → General → Extended controllers (SDL)**. This uses more RAM and needs a restart.
 
 ### Like hotkey (Spotify)
 
@@ -76,20 +79,6 @@ Everything stays on your PC. The app creates these files next to the program (se
 
 **Never share `settings.json`.** It contains your Spotify credentials.
 
-## Build an EXE (optional)
-
-```bash
-pip install pyinstaller
-pyinstaller --noconsole --onefile --icon spotify_pulse.ico ^
-  --add-data "icon.png;." --add-data "spotify_pulse.ico;." SpotifyController.py
-```
-
-The finished `.exe` is in `dist/`.
-
 ## Disclaimer
 
 This is an unofficial fan project. It is not affiliated with, endorsed by or sponsored by Spotify or Discord. All trademarks belong to their respective owners.
-
-## License
-
-[MIT](LICENSE)
