@@ -1,5 +1,5 @@
 {
-    "version": "2.5",
+    "version": "2.6",
     "url": "https://github.com/angelbyte00/Spotify-Hotkey-Controller/releases/latest/download/SpotifyController.exe",
     "py_url": "https://raw.githubusercontent.com/angelbyte00/Spotify-Hotkey-Controller/main/SpotifyController.py",
     "notes": "Border fixes, instant Clear, resizable window"
